@@ -4,7 +4,7 @@ Simple implementation of flat minima methods (SAM, fisher penalty) for Huggingfa
 Replace your `Trainer` class with `BaseTrainer`, and use our `TrainingArguments`:
 
 ```
-from nlpsharpness import BaseTrainer, TrainingArguments
+from hfsharpness.nlpsharpness import BaseTrainer, TrainingArguments
 training_args = TrainingArguments(
     output_dir="/file/location",
     num_train_epochs=3,              # total number of training epochs
