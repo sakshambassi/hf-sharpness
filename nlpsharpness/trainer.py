@@ -14,8 +14,8 @@ from transformers.trainer_pt_utils import (
     get_parameter_names,
 )
 
-from hessian import HFHessian
-from sharpness import SAM
+from hfsharpness.nlpsharpness.hessian import HFHessian
+from hfsharpness.nlpsharpness.sharpness import SAM
 
 
 if version.parse(torch.__version__) >= version.parse("1.6"):
